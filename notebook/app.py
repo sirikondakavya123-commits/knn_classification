@@ -31,6 +31,15 @@ h1 {
     text-align: center;
 }
 
+label {
+    color: black !important;
+    font-weight: bold;
+}
+
+div[data-baseweb="select"] > div {
+    color: black !important;
+}
+
 .stButton>button {
     background-color: #2563eb;
     color: white;
