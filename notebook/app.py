@@ -51,13 +51,13 @@ div[data-baseweb="input"] {
 # LOAD MODEL
 
 model = pickle.load(
-    open(r"../models/model.pkl", "rb")
+    open(r"/models/model.pkl", "rb")
 )
 
 # LOAD SCALER
 
 scaler = pickle.load(
-    open(r"../models/scaler.pkl", "rb")
+    open(r"/models/scaler.pkl", "rb")
 )
 
 # TITLE
